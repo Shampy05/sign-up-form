@@ -10,7 +10,6 @@
 <body>
     <div class="left-column">
         <div class="logo-container">
-            <!--something to insert logo and distict font-->
             <h1>Odin</h1>
         </div>
         <div class="credit-container">
@@ -19,23 +18,48 @@
     </div>
     <div class="right-column">
         <div class="header">
-            <h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h1>
+            <h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</h1>
+            <h1>Sign up <em>now</em> to get started.</h1>
             <h1>You <em>know</em> you want to.</h1>
         </div>
         <div class="main-body">
-            <h2>Let's do this!</h2>
+            <h2 class="form-header">Let's do this!</h2>
             <div class="input-form">
-                <!--input form goes here-->
+                <form action="" method="get" class="form-container">
+                    <div class="form-row">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" name="first-name" id="first-name">
+                    </div>
+                    <div class="form-row">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" name="last-name" id="last-name">
+                    </div>
+                    <div class="form-row">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" placeholder="joe@example.com">
+                    </div>
+                    <div class="form-row">
+                        <label for="phone">PHONE</label>
+                        <input type="number" name="phone" id="phone">
+                    </div>
+                    <div class="form-row">
+                        <label for="pwd">PASSWORD</label>
+                        <input type="password" name="pwd" id="pwd">
+                    </div>
+                    <div class="form-row confirm-pwd">
+                        <label for="pwd">CONFIRM PASSWORD</label>
+                        <input type="password" name="pwd" id="pwd">
+                    </div>
+                </form>
             </div>
         </div>
         <div class="footer">
-            <button type="submit">Create Account</button>
+            <form action="" method="get" class="form-container">
+                <button type="submit">Create Account</button>
+            </form>    
             <p>Already have an account? <a href="">Log in</a></p>
         </div>
     </div>
 </body>
 </html>
-
-
-
 
